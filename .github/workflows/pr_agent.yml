@@ -18,3 +18,5 @@ jobs:
         env:
           OPENAI_KEY: ${{ secrets.DEEPSEEK_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_MODEL_PROVIDER: "deepseek" 
+          PR_MODEL_NAME: "deepseek-chat"
